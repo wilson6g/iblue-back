@@ -1,5 +1,5 @@
 const interfaceConfiguration = () => ({
-  connectDatabase:  () => ( require('./connect-database')()),
+  connectDatabase: () => (require('./connect-database')()),
 });
 
 module.exports = interfaceConfiguration;

@@ -3,6 +3,8 @@ require('dotenv').config()
 
 const app = express();
 
+// const sequelize = require('./framework-drivers/infrastructure/database/interface-database')().buildingInitialDatabaseConfig();
+
 app.get('/', (request, response) => {
   response.send("Hello world!");
 })
